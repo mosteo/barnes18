@@ -6,7 +6,6 @@ procedure Barnes18 is
 
    type Counters is array (Digit) of Natural range 0 .. 2;
 
-
    function Val (C : Character) return Natural is (Natural'Value ("" & C));
 
    --------------------
@@ -39,7 +38,6 @@ procedure Barnes18 is
    procedure Check (I, J : Positive) is
 
       Counter : Counters := (others => 0);
-
 
       --------------
       -- Register --
